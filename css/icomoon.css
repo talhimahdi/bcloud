@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/icomoon.eot?s7ii9b');
+  src:  url('../fonts/icomoon/icomoon.eot?s7ii9b#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?s7ii9b') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?s7ii9b') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?s7ii9b#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dm-chevron-left:before {
+  content: "\e509";
+}
+.icon-dm-chevron-right:before {
+  content: "\e510";
+}
+.icon-play:before {
+  content: "\e500";
+}
+.icon-dm-controller:before {
+  content: "\e501";
+}
+.icon-dm-user:before {
+  content: "\e502";
+}
+.icon-dm-service_01:before {
+  content: "\e503";
+}
+.icon-dm-service_02:before {
+  content: "\e504";
+}
+.icon-dm-service_03:before {
+  content: "\e505";
+}
+.icon-dm-service_04:before {
+  content: "\e506";
+}
+.icon-dm-phone:before {
+  content: "\e507";
+}
+.icon-dm-gesture:before {
+  content: "\e508";
+}
