@@ -13,6 +13,7 @@
 		<link href="modules/Magnific-Popup/magnific-popup.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Poppins%7CMontserrat%7CPlayfair+Display" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
 	</head>
 	<body>
 
@@ -91,7 +92,7 @@
 		<!-- Header end -->
 
 		<!-- Staring slider section -->
-		<div class="dm__slider" id="dm__HomeSection">
+		<div class="dm__slider hidden-xs" id="dm__HomeSection">
 			<div class="dm__slider-item dm-prallaxScene" id="scene">
 				<span class="dm__slider-img" ></span>
 				<div class="dm__slider-caption dm__caption--parallax " >
@@ -101,8 +102,23 @@
 					</div>
 				</div><!--/.dm__slider-caption-->
 				<div class="software-slider">
-					<img class="dm__slider-triangle layer" src="img-assets/software_engineers.png" data-depth="0.10" alt="">
+					<img class="dm__slider-engineers layer" src="img-assets/software_engineers.png" data-depth="0.10" alt="">
 				</div>
+			</div> <!--/.dm__slider-item -->
+		</div> <!--/.dm-slider -->
+
+		<!--/.dm-slider for mobile -->
+		<div class="container visible-xs" style="margin-top: 150px;">
+			<div class="row">
+				<div class="software-slider col-sm-12" style="position: relative;">
+					<img class="dm__slider-engineers layer" src="img-assets/software_engineers.png" data-depth="0.10" alt="">
+				</div>
+				<div class="col-sm-12">
+					<div class="dm__slider-title--container layer" style="text-align: center; margin: 30px 0;">
+						<p class="dm__slider-title">Digital</p> <p class="second-title dm__slider-title">Studio</p>
+						<p class="title_last">A Better Way of Working</p>
+					</div>
+				</div><!--/.dm__slider-caption-->
 			</div> <!--/.dm__slider-item -->
 		</div> <!--/.dm-slider -->
 		<!-- End slider section -->
@@ -399,88 +415,19 @@
 		</div> <!--/#dm__workSection -->
 		<!-- Work section end -->
 
-		<!-- Blog section start -->
-		<div id="dm__blogSection">
-			<div class="dm__blogSection-container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12">
-						<h3 class="dm__text6 dm__text--center">Hello World!</h3>
-					</div>
-					<div class="col-md-12 col-sm-12 ">
-						<div class="dm__blog-slider-container">
-							<div class="dm__slider-blog">
-
-								<a href="blog-single.html" class="dm__slider-item">
-									<div class="dm__slider-item-container">
-										<div class="row">
-											<div class="dm__slider-img-container">
-												<div class="dm__slider-blog-img" style="background-image: url('images/img_02.jpg')"></div>
-											</div>
-											<div class="dm__slider-caption">
-												<div class="dm__slider-caption-col">
-													<h3>Top 10 Bug Tracking Tools for Web Developers and Designers</h3>
-													<p>Credibly evisculate top-line synergy rather than resource sucking collaboration and idea-sharing. Completely promote front-end markets whereas principle-centered action items</p>
-												</div>
-											</div><!--/.dm__slider-caption-->
-										</div><!-- /.row -->
-									</div><!--/. dm__slider-item-container -->
-								</a> <!-- dm-slider-item -->
-
-								<a href="blog-single.html" class="dm__slider-item">
-									<div class="dm__slider-item-container">
-										<div class="row">
-											<div class="dm__slider-img-container">
-												<div class="dm__slider-blog-img" style="background-image: url('images/img_03.jpg')"></div>
-											</div>
-											<div class="dm__slider-caption">
-												<div class="dm__slider-caption-col">
-													<h3>What Has Happened to All of the Web Design Ideas?</h3>
-													<p>Globally reintermediate inexpensive intellectual capital vis-a-vis sustainable convergence. Interactively negotiate excellent ideas via 24/365 testing procedures</p>
-												</div>
-											</div><!--/.dm__slider-caption-->
-										</div><!-- /.row -->
-									</div><!--/. dm__slider-item-container -->
-								</a> <!-- dm-slider-item -->
-
-								<a href="blog-single.html" class="dm__slider-item">
-									<div class="dm__slider-item-container">
-										<div class="row">
-											<div class="dm__slider-img-container">
-												<div class="dm__slider-blog-img" style="background-image: url('images/img_04.jpg')"></div>
-											</div>
-											<div class="dm__slider-caption">
-												<div class="dm__slider-caption-col">
-													<h3>Best designs of 2017</h3>
-													<p>Conveniently exploit B2C web services for emerging manufactured products. Continually transform sustainable products after low-risk high-yield infomediaries</p>
-												</div>
-											</div><!--/.dm__slider-caption-->
-										</div><!-- /.row -->
-									</div><!--/. dm__slider-item-container -->
-								</a> <!-- dm-slider-item -->
-
-								<a href="blog-single.html" class="dm__slider-item">
-									<div class="dm__slider-item-container">
-										<div class="row">
-											<div class="dm__slider-img-container">
-												<div class="dm__slider-blog-img" style="background-image: url('images/img_03.jpg')"></div>
-											</div>
-											<div class="dm__slider-caption">
-												<div class="dm__slider-caption-col">
-													<h3>What Has Happened to All of the Web Design Ideas?</h3>
-													<p>Globally reintermediate inexpensive intellectual capital vis-a-vis sustainable convergence. Interactively negotiate excellent ideas via 24/365 testing procedures</p>
-												</div>
-											</div><!--/.dm__slider-caption-->
-										</div><!-- /.row -->
-									</div><!--/. dm__slider-item-container -->
-								</a> <!-- dm-slider-item -->
-
-							</div> <!-- dm__slider-blog -->
-						</div>  <!--/. dm__blog-slider-container -->
-					</div> <!-- /.col-md-12 col-sm-12 -->
-				</div><!-- /.row -->
-			</div><!-- /.dm__blogSection-container -->
-		</div> <!--/#dm__blogSection -->
-		<!-- Blog section end -->
+		<div class="container">
+			<h3 class="dm__text6 dm__text--center">Our Partners</h3>
+				<section class="customer-logos slider">
+				<div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg" style="width: 100%;"></div>
+				<div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg" style="width: 100%;"></div>
+				<div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg" style="width: 100%;"></div>
+				<div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg" style="width: 100%;"></div>
+				<div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg" style="width: 100%;"></div>
+				<div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg" style="width: 100%;"></div>
+				<div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg" style="width: 100%;"></div>
+				<div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg" style="width: 100%;"></div>
+			</section>
+		</div>
 
 		<!-- Features section start -->
 		<div id="dm__featuresSection">
@@ -606,7 +553,7 @@
 		<footer class="dm-footer">
 			<div class="footer-first-section">
 				<div class="container">
-					<div class="col-md-6 col-sm-6 col-xs-7">
+					<div class="col-md-6 col-sm-6 col-xs-6">
 						<div class="row">
 							<div class="col-md-4 col-sm-4">
 								<h5 class="dm__list-header">Company</h5>
@@ -675,12 +622,12 @@
 								</div><!--/.dm__menu -->
 							</div><!--/.col-md-4 col-sm-4" -->
 						</div><!--/.row-->
-					</div><!--/.col-md-6 col-sm-6 col-xs-7-->
-					<div class="col-md-6 col-sm-6 col-xs-5">
+					</div><!--/.col-md-6 col-sm-6 col-xs-6-->
+					<div class="col-md-6 col-sm-6 col-xs-6">
 						<div class="dm__footer-heading">
 							<img src="img-assets/logo.png" class="dm__header--logoImg" alt="">
 						</div>
-					</div><!--/.col-md-6 col-sm-6 col-xs-5-->
+					</div><!--/.col-md-6 col-sm-6 col-xs-6-->
 				</div><!--/.container-->
 			</div><!--/.footer-first-section-->
 			<div class="dm-separator"></div>
@@ -719,6 +666,34 @@
 	<script src="modules/rellax-master/rellax.js"></script>
 	<script src="modules/Magnific-Popup/jquery.magnific-popup.js"></script>
 	<script src="js/src/script.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$('.customer-logos').slick({
+				slidesToShow: 6,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 1500,
+				arrows: false,
+				dots: false,
+				pauseOnHover: false,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 4
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 3
+					}
+				}]
+			});
+		});
+	</script>
+
 
 	</body>
 </html>
